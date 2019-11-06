@@ -19,15 +19,15 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 # 7. How many stops there are in the array?
-stops.length
+stops.length # 7
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
 stops[2]
 stops.at(2)
-stops.fetch(2)
+stops.fetch(2) # 3
 
 # 9. Reverse the positions of the stops in the array
-stops.reverse
+stops.reverse # =>["Edinburgh Waverley", "Haymarket", "Linlithgow", "Polmont", "Falkirk High", "Croy", "Glasgow Queen St"]
 
 # 10. Print out all the stops using a for loop
 for stop in stops
