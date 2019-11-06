@@ -10,7 +10,7 @@ stops.unshift("Glasgow Queen St")
 stops.insert(4, "Polmont")
 
 # 4. Work out the index position of `"Linlithgow"`
-stops.index("Linlithgow")
+stops.index("Linlithgow") # => 5
 
 # 5. Remove `"Livingston"` from the array using its name
 stops.delete("Livingston")
@@ -19,12 +19,12 @@ stops.delete("Livingston")
 stops.delete_at(2)
 
 # 7. How many stops there are in the array?
-stops.length # 7
+stops.length # => 7
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
 stops[2]
 stops.at(2)
-stops.fetch(2) # 3
+stops.fetch(2) # 3 ways
 
 # 9. Reverse the positions of the stops in the array
 stops.reverse! # =>["Edinburgh Waverley", "Haymarket", "Linlithgow", "Polmont", "Falkirk High", "Croy", "Glasgow Queen St"]
