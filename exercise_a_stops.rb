@@ -27,7 +27,7 @@ stops.at(2)
 stops.fetch(2) # 3
 
 # 9. Reverse the positions of the stops in the array
-stops.reverse # =>["Edinburgh Waverley", "Haymarket", "Linlithgow", "Polmont", "Falkirk High", "Croy", "Glasgow Queen St"]
+stops.reverse! # =>["Edinburgh Waverley", "Haymarket", "Linlithgow", "Polmont", "Falkirk High", "Croy", "Glasgow Queen St"]
 
 # 10. Print out all the stops using a for loop
 for stop in stops
