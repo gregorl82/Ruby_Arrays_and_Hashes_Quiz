@@ -36,4 +36,4 @@ total_uk_population = 0
 for country in united_kingdom
   total_uk_population += country[:population]
 end
-p "Total population of the UK = #{total_uk_population}"
+p total_uk_population # => 63179000
